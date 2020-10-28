@@ -1,0 +1,62 @@
+:root {
+    --spacing: 25px;
+    --blur: 10px;
+    --base: #ffc600;
+    --contrast: 90%;
+}
+
+img {
+    width: 45vw;
+    padding: var(--spacing);
+    background: blur(var(--blur));
+    filter: var(--base);
+    filter: contrast(var(--contrast));
+}
+.namePage {
+    width: 100vw;
+    color: white;
+    font-size: 30px;
+    
+}
+
+.JS-style {
+color: var(--base);
+}
+
+body {
+    width: 100vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(75, 167, 243);
+}
+
+.controls {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 40px;
+}
+
+.wrapper{
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    
+
+}
+input, label {
+    display: block;
+    text-align: left;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    width: 25vw;
+}
